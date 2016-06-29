@@ -1,3 +1,12 @@
+This version of the game is made in order to localize the game to Israel. we will create a localization kit for the game and use l10n.js in order to replace the strings used in the game.
+
+This project is created as part of the "Hasicha" project-a non-profit organization for sex and gender education in israel.
+
+
+The originial readme:
+
+
+
 **Coming Out Simulator 2014**    
 a half-true game about half-truths.
 

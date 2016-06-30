@@ -284,7 +284,7 @@ function About(message){
 			"בוא כבר נתחיל לשחק.": Play
 		});
 	}else{
-		Choose({
+			Choose({
 			"אז אפשר לשחק עכשיו?": Play,
 			"אז מי אתה באמת (קרדיטים)": function(){
 				Credits("אז מי אתה באמת?");

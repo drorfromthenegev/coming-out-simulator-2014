@@ -1,4 +1,4 @@
-This version of the game is made in order to localize the game to Israel. we will create a localization kit for the game and use l10n.js in order to replace the strings used in the game.
+This version of the game is localized to hebrew.
 
 
 

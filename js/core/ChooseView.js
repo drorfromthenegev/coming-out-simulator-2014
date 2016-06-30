@@ -18,6 +18,7 @@ subscribe("say", function(character, message){
 	dom.style.color = character.color || "#000";
 	dom.style.background = character.background || "#FFF";
 	dom.style.borderLeftColor = dom.style.borderRightColor = character.background || "#FFF";
+    dom.style.direction = "rtl";
 	dom.innerHTML = message;
 	dialogueDOM.appendChild(dom);
 
@@ -48,6 +49,7 @@ subscribe("choose", function(choices){
 
 		var label = labels[i];
 		var button = document.createElement("div");
+        button.style.direction = "rtl";
 		button.innerHTML = label;
 		button.onclick = (function(callback,message){
 			return function(){
@@ -171,4 +173,3 @@ subscribe("stop", function(label){
 		_soundItems[label].stop();
 	}
 });
-
